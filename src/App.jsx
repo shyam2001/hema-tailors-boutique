@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 export default function HemaTailorsWebsite() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
@@ -159,6 +161,7 @@ export default function HemaTailorsWebsite() {
       <footer className="text-center py-6 text-sm text-gray-500 bg-white">
         © 2026 Hema Tailors & Boutique. All rights reserved.
       </footer>
+      <Analytics />
     </div>
   );
 }
